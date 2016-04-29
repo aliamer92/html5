@@ -1,0 +1,93 @@
+<!DOCtype html>
+<html>
+    <head>
+        <title> Survey </title>
+    </head>
+        <body>
+            <h3> <a href= "../1/work.html"> About me </a> </h3>
+            <h3> <a href= "../2/index.html"> Page about Lists and links </a> </h3>
+            <h3> <a href="../3/imtb.html"> Images and Tables </a> </h3>
+            <p> This page is here so you can give us a quick survey, your time and opinion is highly valued and appreciated. </p> 
+            <form action="" method="POST">
+                <fieldset> 
+                    <legend> 
+                        About you:
+                    </legend>
+                     <label> 
+                        First Name:
+                        <input type="text" name="firstName" maxlength="25" required="required" />
+                      </label>
+                      </br>
+                      </br>
+                      <label> 
+                          Last Name:
+                          <input type="text" name="lastName" maxlength="25" />
+                      </label>
+                      </br>
+                      </br>
+                      <label> 
+                          Date of Birth:
+                          <input type="date" name="dob" />
+                      </label>
+                      </br>
+                      </br>
+                      <label> 
+                        Email:
+                        <input type="email" name="emailAddress" required="required" />
+                      </label>
+                      </br>
+                      </br>
+                      <label> 
+                        Phone #:
+                        <input type="tel" name="phoneNumber" />
+                      </label>
+                </fieldset>
+                </br>
+                </br>
+                <fieldset>
+                    <legend>Questionaire about airlines: </legend> 
+                    In which airline would you preffer to travel in?
+                    </br>
+                    </br>
+                        <label><input type="radio" name="airline" value="Emirates" /> Emirates</label>
+                        <label><input type="radio" name="airline" value="Qatar" /> Qatar Airways</label>
+                        <label><input type="radio" name="airline" value="PIA" checked="checked" /> PIA</label>
+                        <label><input type="radio" name="airline" value="Shaheen" /> Shaheen Airways</label>
+                        <label><input type="radio" name="airline" value="airBlue" /> Airblue</label>
+                    </br>
+                    </br>
+                    Which countries would you want to travel to?
+                    </br>
+                    </br>
+                        <label><input type="checkbox" name="countries" value="Afghanistan" /> Afghanistan</label>
+                        <label><input type="checkbox" name="countries" value="India" /> India</label>
+                        <label><input type="checkbox" name="countries" value="America" /> America</label>
+                        <label><input type="checkbox" name="countries" value="France" /> France</label>
+                     </br>
+                     </br>                   
+                    <label for="aircraftSelection">
+                    Which aircraft do you preffer?
+                    </label>
+                    </br>
+                    </br>
+                    <select name="aircrafts" id="aircraftSelection">
+                        <option value="B737"> Boeing 737 </option>
+                        <option value="B747"> Boeing 747 </option>
+                        <option value="B787"> Boeing 787 </option>
+                        <option value="A320" selected="selected"> Airbus 320 </option>
+                        <option value="A380"> Airbus 380 </option>
+                    </select>
+                    </br>
+                    </br>
+                    <label for="comments"> Please leave any comments/suggestions/ reviews: </label>
+                    </br>
+                    </br>
+                    <textarea id="comments"> </textarea>
+                    </br>
+                    </br>
+                    </br>
+                    <input type="submit" value="submit" />
+                </fieldset>
+            </form>   
+        </body>
+</html>
